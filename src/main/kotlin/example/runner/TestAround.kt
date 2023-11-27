@@ -8,8 +8,8 @@ import kotlin.reflect.full.declaredMemberFunctions
 /**
  * Константы с подстрокой, определяющей методы в имени которых BEFORE и AFTER
  */
-private const val BEFORE = "before"
-private const val AFTER = "after"
+const val BEFORE = "before"
+const val AFTER = "after"
 /**
  *  Создайте класс реализующий интерфейс TestRunner<T>
  */
